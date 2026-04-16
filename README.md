@@ -30,6 +30,7 @@ To build and run this project locally, the following tools are required:
    ```bash
    git clone [https://github.com/AhmadYasserHamad/CPU-Scheduling.git](https://github.com/AhmadYasserHamad/CPU-Scheduling.git)
    ```
+   ```bash
    cd CPU-Scheduling
 2. Compile the source code using Make:
    ```bash
@@ -55,4 +56,6 @@ To run the simulator via Docker:
 2. Run the container interactively:
    ```bash
    docker run -it ahmadyasserhamad/cpu-scheduling:general
-   
+
+## Testing and Validation
+The simulator's logic and metric calculations have been rigorously tested and validated against an external autograder system.
